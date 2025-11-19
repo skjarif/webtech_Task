@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Form | Sk Jarif (AIUB)</title>
+
+    <meta name="author" content="Sk Jarif">
+    <meta name="description" content="Student profile and information form for Sk Jarif, CSE student at American International University-Bangladesh (AIUB).">
+    <meta name="keywords" content="Sk Jarif, AIUB, CSE, Student Profile, Computer Science, Bangladesh">
+
+</head>
+<body>
+    <header>
+        <h1>Student Profile Information Form</h1>
+        <h2>American International University-Bangladesh (AIUB)</h2>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name" value="Sk Jarif" maxlength="50" required><br><br>
+
+                <label for="student_id">Student ID:</label>
+                <input type="text" id="student_id" name="student_id" value="22-49017-3" readonly><br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="yourname@aiub.edu" required><br><br>
+
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" checked>
+                <label for="male">Male</label><br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+
+                <label>Interests:</label>
+                <input type="checkbox" id="programming" name="interests" value="programming" checked>
+                <label for="programming">Programming</label>
+
+                <input type="checkbox" id="web_dev" name="interests" value="web_dev" checked>
+                <label for="web_dev">Web Development</label>
+
+                <input type="checkbox" id="ai" name="interests" value="ai">
+                <label for="ai">Artificial Intelligence</label><br><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Academic Information</legend>
+
+                <label for="current_program">Program:</label>
+                <input type="text" id="current_program" name="current_program" value="BSc in Computer Science and Engineering (CSE)" readonly><br><br>
+
+                <label for="university">University:</label>
+                <input type="text" id="university" name="university" value="AIUB" readonly><br><br>
+
+                <label for="semester">Current Semester:</label>
+                <input type="text" id="semester" name="semester" value="8th Semester" readonly><br><br>
+
+                <label for="ssc_institution">SSC Institution:</label>
+                <input type="text" id="ssc_institution" name="ssc_institution" required><br><br>
+
+                <label for="ssc_gpa">SSC GPA:</label>
+                <input type="text" id="ssc_gpa" name="ssc_gpa" maxlength="4" required><br><br>
+
+                <label for="hsc_institution">HSC Institution:</label>
+                <input type="text" id="hsc_institution" name="hsc_institution" required><br><br>
+
+                <label for="hsc_gpa">HSC GPA:</label>
+                <input type="text" id="hsc_gpa" name="hsc_gpa" maxlength="4" required><br><br>
+
+                <label for="skills">Skills:</label><br>
+                <textarea id="skills" name="skills" rows="4" placeholder="Python, Java, C++, C#, Web Development, Teaching HSC students"></textarea><br><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Document Upload</legend>
+
+                <label for="cv">Upload Your CV:</label>
+                <input type="file" id="cv" name="cv"><br><br>
+
+                <label for="photo">Upload Profile Photo:</label>
+                <input type="file" id="photo" name="photo"><br><br>
+            </fieldset>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 | Student Profile System | AIUB</p>
+    </footer>
+
+</body>
+</html>
